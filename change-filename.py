@@ -3,11 +3,11 @@ import re
 
 def rename_files(directory):
     # Regular expression pattern to match the frame number
-    pattern = r'254p Thermal Frame \((\d+)\)'
+    pattern = r'254p RGB Frame \((\d+)\)'
     
     # List all files in the directory
     for filename in os.listdir(directory):
-        if '254p Thermal Frame' in filename:
+        if '254p RGB Frame' in filename:
             # Extract frame number using regex
             match = re.search(pattern, filename)
             if match:
@@ -30,7 +30,7 @@ def rename_files(directory):
 
 if __name__ == "__main__":
     # Specify your directory path
-    directory_path = "D:\VIT\8TH SEM\Capstone\FLAME2-dataset\#9) 254p Frame Pairs\\254p Thermal Images"  # Update this path
+    directory_path = "/Users/karanchanana/Bhavya/fire-detection/#9) 254p Frame Pairs/254p RGB Images"  # Update this path
     
     # Call the rename function
     rename_files(directory_path)
