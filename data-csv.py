@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Input and output file paths
-input_txt_file = "#10) Frame Pair Labels.txt"  # Replace with your actual file path
+input_txt_file = "/Users/karanchanana/Bhavya/fire-detection/#10) Frame Pair Labels.txt"  # Replace with your actual file path
 output_csv_file = "flame_dataset.csv"
 
 # List to store extracted data
