@@ -1,0 +1,23 @@
+FirstFrameNumber - LastFrameNumber Fire(Y/N)Smoke(Y/N)
+Fire (Y/N) indicates whether or not there is fire visible in 254p RGB and/or 254p Thermal frame
+Smoke (Y/N) indicates whether smoke fills >= 50% of the 254p RGB frame (visual estimate)
+
+1	13700	NN
+13701	14699	YY
+14700	15980	YN
+15981	19802	YY
+19803	19899	YN
+19900	27183	YY
+27184	27514	YN
+27515	31294	YY
+31295	31509	YN
+31510	33597	YY
+33598	33929	YN
+33930	36550	YY
+36551	38030	YN
+38031	38153	YY
+38154	41642	YN
+41642	45279	YY
+45280	51206	YN
+51207	52286	YY
+52287	53451	YN
