@@ -17,7 +17,7 @@ The key novelty of this project lies in the **fusion of thermal and RGB images**
 - Provide **explainability** using **Grad-CAM** to visualize model predictions.
 
 ## 📂 Dataset Used
-The **FLAME dataset** is used, which consists of:
+The [**FLAME dataset**](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs) is used, which consists of:
 - **RGB images** of fire and smoke
 - **Thermal images** of fire and smoke
 - **Annotations** for classification tasks
